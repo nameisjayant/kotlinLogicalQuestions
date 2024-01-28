@@ -220,7 +220,7 @@ private fun divisibleSumPair(k: Int, ar: Array<Int>) {
     for (i in ar.indices) {
         for (j in ar.indices) {
             if (ar[i] < ar[j] && ((ar[i] + ar[j]) % k == 0))
-                count += 1
+                count++
         }
     }
     println(count)
